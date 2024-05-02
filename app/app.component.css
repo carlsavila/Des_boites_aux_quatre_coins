@@ -6,6 +6,14 @@
 div {
     display: grid;
     grid-template: repeat(2, 1fr) / repeat(2, 1fr);
-    row-gap: calc(100vh - 60px*2);
-    column-gap: calc(100vw - 60px*2);
+    row-gap: calc(100vh - 65px*2);
+    column-gap: calc(100vw - 65px*2);
+}
+.userCard {
+    display: block;
+    position: absolute;
+    top: 10%;
+    left: 30%;
+    width: 30%;
+    height: fit-content;
 }

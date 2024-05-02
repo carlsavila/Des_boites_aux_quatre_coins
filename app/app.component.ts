@@ -2,6 +2,7 @@ import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { RouterOutlet } from '@angular/router';
 import { BlockComponent } from './block/block.component';
+import { UserProfileComponent } from './user-profile/user-profile.component';
 
 @Component({
   selector: 'app-root',
@@ -9,7 +10,8 @@ import { BlockComponent } from './block/block.component';
   imports: [
     CommonModule, 
     RouterOutlet,
-    BlockComponent
+    BlockComponent,
+    UserProfileComponent
   ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
